@@ -57,7 +57,7 @@ body {
 }
 
 /* Add these media queries for smaller screens */
-@media (max-width: 1439px) and (min-width: 1023px) {
+/* @media (max-width: 1439px) and (min-width: 1023px) {
   .rightCloud {
     margin-left: 47rem;
     margin-top: -75rem;
@@ -71,7 +71,7 @@ body {
   .component1-button {
     width: 95%;
   }
-}
+} */
 /* Component 1 End */
 
 /* Component 2 Start */
