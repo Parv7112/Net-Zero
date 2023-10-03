@@ -108,7 +108,7 @@ body {
 }
 
 .component3-background-image {
-  background-image: url("C:/Users/Parv/OneDrive/Desktop/net-zero/src/assets/Comp3-bg.png");
+  background-image: url("src/assets/Comp3-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
