@@ -9,9 +9,10 @@ import Youtube1 from '../assets/YouTube1.png'
 import Egg from '../assets/Egg.png'
 
 function Component7() {
+  const [width, setWidth] = useState(window.innerWidth)
   return (
     <div className="mt-5 pt-5 component7-container">
-      <h2>The Metaverse</h2>
+      <h2>The Metaverse {width}</h2>
       <h1 className="fw-bold component6-text">PARTNERS AND ECOSYSTEM</h1>
       <div className="row component7-image1">
         <div className="col d-none d-sm-block">
