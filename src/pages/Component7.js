@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import BSC from "../assets/BSC.png";
 import Partners from "../assets/Partners.png";
 import Max from "../assets/Max.png";
@@ -12,7 +12,7 @@ function Component7() {
   const [width, setWidth] = useState(window.innerWidth)
   return (
     <div className="mt-5 pt-5 component7-container">
-      <h2>The Metaverse {width}</h2>
+      <h2>The Metaverse {width}px </h2>
       <h1 className="fw-bold component6-text">PARTNERS AND ECOSYSTEM</h1>
       <div className="row component7-image1">
         <div className="col d-none d-sm-block">
