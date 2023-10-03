@@ -14,7 +14,7 @@ function Component5() {
               EXPANSION
             </h2>
           </div>
-          <img src={Comp5Bird} className="component5-bird" alt="" />
+          <img src={Comp5Bird} className="component5-bird d-none d-sm-block" alt="" />
           <div className="row component5-row">
             <div className="col-3 align-items-center">
               <div className="container component5-container2">
@@ -62,11 +62,11 @@ function Component5() {
               </div>
             </div>
           </div>
-          <div className="row position-relative">
-            <div className="col-6 component5-row1">
+          <div className="row position-relative d-none d-sm-block">
+            <div className="col-6 component5-row1 ">
               <img
                 src={Fence}
-                className="position-absolute start-0 bottom-0 component5-fence1"
+                className="position-absolute start-0 bottom-0 component5-fence1 "
                 alt=""
               />
               <img

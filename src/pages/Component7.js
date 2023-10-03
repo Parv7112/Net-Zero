@@ -14,11 +14,11 @@ function Component7() {
       <h2>The Metaverse</h2>
       <h1 className="fw-bold component6-text">PARTNERS AND ECOSYSTEM</h1>
       <div className="row component7-image1">
-        <div className="col">
+        <div className="col d-none d-sm-block">
           <img src={BSC} className="mt-5 pt-5" alt="BSC" />
         </div>
       </div>
-      <div className="row component7-image2">
+      <div className="row component7-image2 ">
         <img src={Partners} className="mt-5 pt-5 mx-5" alt="Partners" />
       </div>
       <div className="container component7-container2">
@@ -32,7 +32,7 @@ function Component7() {
         <img src={Max} alt="Max" className="component7-image3" />
       </div>
       <div>
-        <img src={Logo1} className="mt-5 pt-5" alt="Logo" />
+        <img src={Logo1} className="mt-5 pt-5 component7-logo" alt="Logo" />
       </div>
       <h4 className="mt-5">Powered by the team at afincoin.io</h4>
       <div className="position-relative" style={{height: '450px'}}>

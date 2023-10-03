@@ -140,19 +140,19 @@ body {
 
 @media (max-width: 1025px) and (min-width: 1023px) {
   .component5-container2 {
-    height: 22rem!important;
-    width: 16rem!important;
-    margin-right: -15rem!important;
+    height: 22rem !important;
+    width: 16rem !important;
+    margin-right: -15rem !important;
   }
   .component5-container3 {
-    height: 22rem!important;
-    width: 16rem!important;
-    margin-right: -15rem!important;
+    height: 22rem !important;
+    width: 16rem !important;
+    margin-right: -15rem !important;
   }
   .component5-container4 {
-    height: 22rem!important;
-    width: 16rem!important;
-    margin-left: 14rem!important;
+    height: 22rem !important;
+    width: 16rem !important;
+    margin-left: 14rem !important;
   }
 }
 
@@ -202,8 +202,8 @@ body {
 /* Component 5 Start */
 
 .component5-container {
-  height: 65rem;
-  margin-top: 25rem;
+  height: 65rem !important;
+  margin-top: 25rem !important;
   max-width: 100%;
 }
 
@@ -293,40 +293,6 @@ body {
   margin-bottom: 13rem;
 }
 
-@media (max-width: 992px) {
-  .component5-container {
-    height: auto;
-    margin-top: 0;
-    padding-top: 3rem;
-  }
-
-  .component5-background-image {
-    height: 40%;
-  }
-
-  .component5-bird {
-    margin-top: -18rem;
-    margin-left: 0;
-  }
-
-  .component5-row {
-    margin-top: -8rem;
-  }
-
-  .component5-container2,
-  .component5-container3,
-  .component5-container4 {
-    height: auto;
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .component5-row1 {
-    margin-bottom: 0;
-  }
-}
-
 /* Component 5 End */
 
 /* Component 6 Start */
@@ -404,3 +370,170 @@ body {
 }
 
 /* Component 7 End */
+
+/* Screen 320px Start */
+
+@media (max-width: 430px) and (min-width: 420px) {
+  .component1-background {
+    width: 68%;
+  }
+  .component1-logo {
+    width: 100px;
+    height: 80px;
+  }
+  .component2-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .component3-container {
+    width: 58.5rem;
+  }
+  .component3-row {
+    width: 100%;
+  }
+  .component4-container {
+    width: 58.5rem;
+  }
+  .component5-container {
+    width: 20rem;
+    height: 100rem!important;
+    margin-left: -1rem;
+  }
+  .component5-container2 {
+    height: 25rem;
+    width: 13rem;
+    margin-right: -12rem;
+    margin-top: -29rem;
+  }
+  .component5-container3 {
+    height: 25rem;
+    width: 13rem;
+    margin-left: -2.5rem;
+    margin-top: -3rem;
+  }
+  .component5-container4 {
+    height: 25rem;
+    width: 13rem;
+    margin-left: -8rem;
+    margin-top: 23rem;
+  }
+  .component6-container {
+    width: 100%;
+  }
+  .component7-container {
+    width: 18rem !important;
+    max-width: 282%;
+  }
+  .component7-image4 {
+    margin-top: 0rem;
+    width: 10rem;
+  }
+  .component7-container2 {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    width: 95%;
+    height: 15rem;
+  }
+  .component7-image1 {
+    height: 97px;
+    width: 32px;
+    margin-left: -2rem;
+  }
+  .component7-image2 {
+    width: 290px;
+    margin-left: -3rem;
+    margin-top: -11rem;
+  }
+  .component7-image3 {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    height: 12rem;
+  }
+  .component7-logo {
+    margin-top: 9rem !important;
+  }
+}
+
+/* Screen 320px End */
+
+/* Screen 375px Start */
+/* @media (max-width: 380px) and (min-width: 370px) {
+  .component1-background {
+    width: 300%;
+  }
+  .component1-logo {
+    width: 100px;
+    height: 80px;
+}
+  .rightCloud {
+    height: 8rem;
+    margin-right: -2.5rem;
+    margin-top: -80rem;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 42rem;
+}
+  .component2-container {
+    width: 300%;
+    margin-bottom: 2rem;
+  }
+  .component3-container {
+    width: 58.5rem
+  }
+  .component3-row {
+    width: 300%;
+  }
+  .component4-container {
+    width: 58.5rem
+  }
+  .component5-container {
+    width: 58rem;
+    max-width: 290%;
+  }
+  .component5-fence1 {
+    margin-bottom: -3rem;
+  }
+  .component5-fence2 {
+    margin-bottom: -3rem;
+  }
+  .component5-garden1 {
+    margin-left: 0rem;
+    margin-bottom: -4rem;
+  }
+  .component5-garden2 {
+    margin-left: -18rem;
+    margin-bottom: -4rem;
+  }
+  .component5-bird {
+    margin-top: -18rem;
+    margin-left: -39rem;
+    height: 16rem;
+    width: 19rem;
+}
+.component5-container2 {
+  height: 25rem;
+  width: 13rem;
+  margin-right: -13rem;
+}
+.component5-container3 {
+  height: 25rem;
+  width: 13rem;
+  margin-right: -13rem;
+}
+.component5-container4 {
+  height: 25rem;
+  width: 13rem;
+  margin-left: 13rem;
+}
+  .component6-container {
+    width: 280%;
+  }
+  .component7-container {
+    width: 59rem !important;
+    max-width: 282%;
+  }
+  .component7-container2 {
+    margin-left: 4rem;
+  }
+} */
+/* Screen 375px End */

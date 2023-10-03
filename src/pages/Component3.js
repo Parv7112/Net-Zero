@@ -11,9 +11,9 @@ function Component3() {
         </div>
       </div>
       <div className="">
-        <div className="row">
+        <div className="row component3-row">
           <div className="col-6">
-            <video controls className="component3-vd1">
+            <video controls className="component3-vd1 ">
               <source src={vd1} type="video/mp4" />
             </video>
             <h2 className="mt-4">Infinite Runner</h2>
@@ -24,7 +24,7 @@ function Component3() {
             </p>
           </div>
           <div className="col-6">
-            <video controls className="component3-vd2">
+            <video controls className="component3-vd2 ">
               <source src={vd1} type="video/mp4" />
             </video>
             <h2 className="mt-4">The Biosphere</h2>

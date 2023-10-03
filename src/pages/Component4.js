@@ -3,7 +3,7 @@ import Meta from "../assets/MetaHornbills.png";
 
 function Component4() {
   return (
-    <div className="component4-container">
+    <div className="component4-container d-none d-sm-block">
       <div className="component4-container component4-background-image">
         <div className="component4-background">
           <h4 className="component4-text">MetaHornbills</h4>

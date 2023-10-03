@@ -5,7 +5,7 @@ import Component3 from './Component3'
 
 function Component2() {
   return (
-    <div className='mt-5 mx-5 px-5 row'>
+    <div className='mt-5 mx-5 px-5 row component2-container'>
     <div className='col-7 mt-5'>
       <img src={Bird} className='w-50' alt="GIF" />
     </div>
