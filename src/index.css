@@ -649,6 +649,9 @@ html {
 /* Screen 1440px Start */
 
 @media (max-width: 1450px) and (min-width: 1431px) {
+  body {
+    overflow-x: hidden;
+  }
   .component1-button {
     margin-left: 2rem;
   }
