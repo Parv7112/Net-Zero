@@ -18,7 +18,7 @@ function Component1() {
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setNavbarOpen(!navbarOpen)} aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto navbar-row fs-2 ml-2">
+          <Nav className="mr-auto navbar-row fs-2 ml-2 fw-bold">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#">Whitepaper</Nav.Link>
             <Nav.Link href="#">NFTs</Nav.Link>
