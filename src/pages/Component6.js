@@ -28,7 +28,7 @@ function Component6() {
           <h6 className='text-center'>Chief Technology Officer</h6>
         </div>
       </div>
-      <div className='row mt-5 pt-5'>
+      <div className='row mt-5 pt-5 component6-row'>
         <div className='col-lg-3 col-md-4 col-sm-6'>
           <img src={Prim} className='component6-image' alt='Prim' />
           <h5 className='text-center'>Prim Poungpet</h5>
