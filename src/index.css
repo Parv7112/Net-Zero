@@ -1,6 +1,6 @@
 body {
-  width: 100svw;
-  overflow-x: hidden;
+  max-width: 100svw !important;
+  overflow-x: hidden !important 
 }
 
 /* Component 1 Start */
@@ -30,6 +30,7 @@ body {
   border-radius: 50rem;
   background: linear-gradient(143.15deg, #83c083 -2.31%, #6f730d 102.06%);
   box-shadow: 0px 0px 5px 2px;
+  margin-left: 15rem;
 }
 
 .rightCloud {
@@ -96,6 +97,7 @@ body {
 
 .component3-container {
   height: 500px;
+  margin-bottom: 25rem;
 }
 
 .component3-background {
@@ -268,7 +270,6 @@ body {
   border-radius: 20px;
   background: linear-gradient(143.15deg, #83c083 -2.31%, #6f730d 102.06%);
   margin-left: 22rem;
-  overflow-x: hidden;
 }
 
 .component5-fence1 {
@@ -356,6 +357,10 @@ body {
   margin-top: -9rem;
 }
 
+.component7-background {
+  height: 450px;
+}
+
 @media (max-width: 1024px) {
   .component7-image2 {
     width: 800px;
@@ -371,22 +376,54 @@ body {
 
 /* Component 7 End */
 
-/* Screen 320px Start */
+/* Screen 425px Start */
 
-@media (max-width: 430px) and (min-width: 420px) {
+@media (max-width: 430px) {
+  body {
+    max-width: 100svh!important;
+    overflow-x: hidden!important;
+  }
   .component1-background {
-    width: 68%;
+    width: 100%;
   }
   .component1-logo {
-    width: 100px;
-    height: 80px;
+    display: none;
+  }
+  .rightCloud {
+    display: none;
+  }
+  .leftCloud {
+    display: none;
+  }
+  .component1-button {
+    margin-left: 2rem;
+  }
+  .component1-sponsor {
+    display: none !important;
   }
   .component2-container {
     width: 100%;
     margin-bottom: 2rem;
+    margin-left: 0rem !important;
+  }
+  .arrow-container {
+    margin-left: 6rem;
   }
   .component3-container {
-    width: 58.5rem;
+    width: 26.5rem;
+  }
+  .component3-background {
+    height: 50%;
+  }
+  .component3-vd1 {
+    margin-top: 2rem;
+  }
+  .component3-vd2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .component3-button {
+    width: 45%;
   }
   .component3-row {
     width: 100%;
@@ -395,33 +432,34 @@ body {
     width: 58.5rem;
   }
   .component5-container {
-    width: 20rem;
-    height: 100rem!important;
-    margin-left: -1rem;
+    width: 26rem;
+    height: 100rem !important;
+    margin-top: 50rem !important;
+    padding-inline: 0rem !important;
   }
   .component5-container2 {
     height: 25rem;
     width: 13rem;
-    margin-right: -12rem;
+    margin-right: -15rem;
     margin-top: -29rem;
   }
   .component5-container3 {
     height: 25rem;
     width: 13rem;
-    margin-left: -2.5rem;
+    margin-left: 0.5rem;
     margin-top: -3rem;
   }
   .component5-container4 {
     height: 25rem;
     width: 13rem;
-    margin-left: -8rem;
+    margin-left: -6.5rem;
     margin-top: 23rem;
   }
   .component6-container {
     width: 100%;
   }
   .component7-container {
-    width: 18rem !important;
+    width: 27rem !important;
     max-width: 282%;
   }
   .component7-image4 {
@@ -440,7 +478,7 @@ body {
     margin-left: -2rem;
   }
   .component7-image2 {
-    width: 290px;
+    width: 430px;
     margin-left: -3rem;
     margin-top: -11rem;
   }
@@ -452,88 +490,70 @@ body {
   .component7-logo {
     margin-top: 9rem !important;
   }
+  .component7-background {
+    height: 90px;
+  }
 }
 
-/* Screen 320px End */
+/* Screen 425px End */
 
 /* Screen 375px Start */
-/* @media (max-width: 380px) and (min-width: 370px) {
-  .component1-background {
-    width: 300%;
-  }
-  .component1-logo {
-    width: 100px;
-    height: 80px;
-}
-  .rightCloud {
-    height: 8rem;
-    margin-right: -2.5rem;
-    margin-top: -80rem;
-    width: 15rem;
-    height: 15rem;
-    margin-left: 42rem;
-}
-  .component2-container {
-    width: 300%;
-    margin-bottom: 2rem;
-  }
+@media (max-width: 380px) {
   .component3-container {
-    width: 58.5rem
-  }
-  .component3-row {
-    width: 300%;
-  }
-  .component4-container {
-    width: 58.5rem
+    width: 23.5rem;
   }
   .component5-container {
-    width: 58rem;
-    max-width: 290%;
+    margin-top: 45rem !important;
+    width: 23rem;
   }
-  .component5-fence1 {
-    margin-bottom: -3rem;
+  .component5-container2 {
+    margin-right: -14rem;
   }
-  .component5-fence2 {
-    margin-bottom: -3rem;
+  .component5-container3 {
+    margin-left: -0.5rem;
   }
-  .component5-garden1 {
-    margin-left: 0rem;
-    margin-bottom: -4rem;
-  }
-  .component5-garden2 {
-    margin-left: -18rem;
-    margin-bottom: -4rem;
-  }
-  .component5-bird {
-    margin-top: -18rem;
-    margin-left: -39rem;
-    height: 16rem;
-    width: 19rem;
-}
-.component5-container2 {
-  height: 25rem;
-  width: 13rem;
-  margin-right: -13rem;
-}
-.component5-container3 {
-  height: 25rem;
-  width: 13rem;
-  margin-right: -13rem;
-}
-.component5-container4 {
-  height: 25rem;
-  width: 13rem;
-  margin-left: 13rem;
-}
-  .component6-container {
-    width: 280%;
+  .component5-container4 {
+    margin-left: -7rem;
   }
   .component7-container {
-    width: 59rem !important;
+    width: 24rem !important;
     max-width: 282%;
   }
-  .component7-container2 {
-    margin-left: 4rem;
+  .component7-image2 {
+    width: 375px;
   }
-} */
+  .component7-background {
+    height: 105px;
+  }
+}
 /* Screen 375px End */
+
+/* Screen 320px Start */
+@media (max-width: 325px) {
+  .component3-container {
+    width: 20.5rem;
+  }
+  .component3-button {
+    width: 50%;
+  }
+  .component5-container {
+    width: 19rem;
+  }
+  .component5-container2 {
+    margin-right: -13rem;
+  }
+  .component5-container3 {
+    margin-left: -1.5rem;
+  }
+  .component7-container {
+    width: 20rem !important;
+    max-width: 282%;
+  }
+  .component7-image2 {
+    width: 325px;
+  }
+  .component7-background {
+    height: 85px;
+  }
+}
+/* Screen 320px End */

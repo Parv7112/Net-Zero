@@ -36,11 +36,11 @@ function Component7() {
         <img src={Logo1} className="mt-5 pt-5 component7-logo" alt="Logo" />
       </div>
       <h4 className="mt-5">Powered by the team at afincoin.io</h4>
-      <div className="position-relative" style={{height: '450px'}}>
+      <div className="position-relative component7-background">
         <img src={Biosphere} alt="Biosphere" className="position-absolute start-0 top-0 z-1 w-100"/>
         <img src={Icons} className="component7-image4 z-3" alt="Icons" />
       </div>
-      <div className="d-flex component7-footer text-white">
+      <div className="d-flex component7-footer text-white component1-sponsor">
         <div className="col-2 d-flex align-items-center mx-5 px-5">
           <img src={Youtube1} className="youtube z-2" alt="YouTube1" />
           <h5 className="mx-3 ml-2 fw-bold text-start z-2">Watch Teaser</h5>
