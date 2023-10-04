@@ -1,9 +1,13 @@
-body {
+html {
   max-width: 100svw !important;
   overflow-x: hidden !important;
 }
 
 /* Component 1 Start */
+
+.component1-container {
+  width: 100%;
+}
 
 .component1-background {
   background: linear-gradient(
@@ -256,7 +260,7 @@ body {
 }
 
 .component5-garden2 {
-  margin-left: -8rem;
+  margin-left: 40rem;
   margin-bottom: -3.5rem;
 }
 
@@ -425,8 +429,8 @@ body {
   .component6-container {
     width: 100%;
   }
-  .component6-row{
-    margin-top: -2rem!important;
+  .component6-row {
+    margin-top: -2rem !important;
   }
   .component7-container {
     width: 27rem !important;
@@ -517,7 +521,7 @@ body {
   }
   .component4-container {
     width: 20.5rem;
-    margin-top: 55rem!important;
+    margin-top: 55rem !important;
   }
   .component4-button {
     width: 75%;
@@ -550,4 +554,104 @@ body {
 
 /* Screen 1024px Start */
 
+@media (max-width: 1430px) and (min-width: 1020px) {
+  body {
+    overflow-x: hidden;
+  }
+  .component1-logo {
+    width: 100px;
+    height: 80px;
+  }
+  .component1-navbar {
+    font-size: x-large !important;
+    margin-left: -2rem;
+  }
+  .component1-button {
+    margin-left: 1rem;
+  }
+  .rightCloud {
+    margin-top: -79rem;
+    margin-left: 47rem;
+  }
+  .component2-container {
+    margin-left: -5rem !important;
+  }
+  .component2-text1 {
+    width: 20rem;
+  }
+  .component3-container {
+    margin-top: 5rem;
+  }
+  .component3-button {
+    width: 25%;
+    margin-top: 3rem;
+  }
+  .component4-button {
+    width: 65%;
+  }
+  .component5-container {
+    padding-inline: 0rem;
+  }
+  .component5-bird {
+    height: 15rem;
+    width: 20rem;
+  }
+  .component5-container2 {
+    height: 25rem;
+    width: 17rem;
+    margin-right: -11rem;
+  }
+  .component5-container3 {
+    height: 25rem;
+    width: 17rem;
+    margin-right: -13rem;
+  }
+  .component5-container4 {
+    height: 25rem;
+    width: 17rem;
+    margin-left: 13.5rem;
+  }
+  .component5-garden1 {
+    margin-left: -2rem;
+  }
+  .component5-garden2 {
+    margin-left: 17rem;
+  }
+  .component7-container {
+    max-height: 88rem;
+  }
+  .component7-background {
+    height: 280px;
+  }
+  .component7-footer {
+    margin-left: -3rem;
+  }
+  .component7-image1 {
+    margin-left: 18rem;
+  }
+  .component7-image2 {
+    width: 1000px;
+    margin-left: -2rem;
+  }
+  .component7-image4 {
+    margin-top: 1rem;
+  }
+  .youtube {
+    width: 150%;
+  }
+  .egg {
+    width: 150%;
+  }
+}
+
 /* Screen 1024px End */
+
+/* Screen 1440px Start */
+
+@media (max-width: 1450px) and (min-width: 1431px) {
+  .component1-button {
+    margin-left: 2rem;
+  }
+}
+
+/* Screen 1440px End */

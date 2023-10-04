@@ -8,7 +8,7 @@ import Shuu from '../assets/Shuu.png';
 
 function Component6() {
   return (
-    <div className='container component6-container'>
+    <div className='container-fluid component6-container'>
       <h2 className='mt-5 fw-bold text-center'>Team</h2>
       <h1 className='component6-text fw-bold text-center'>MEET THE AFINIONS</h1>
       <div className='row mt-5 pt-5 justify-content-center'>
@@ -44,7 +44,7 @@ function Component6() {
           <h5 className='text-center'>Abraham Matthew</h5>
           <h6 className='text-center'>Marketing Advisor</h6>
         </div>
-        <div className='col-lg-3 col-md-4 col-sm-6'>
+        <div className='col-lg-3 col-md-4 col-sm-6 comp6-img7'>
           <img src={Shuu} className='component6-image' alt='Shuu' />
           <h5 className='text-center'>Shuu Abd. Rani</h5>
           <h6 className='text-center'>Graphic Designer</h6>

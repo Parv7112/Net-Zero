@@ -7,9 +7,9 @@ function Component2() {
   return (
     <div className='mt-5 mx-5 px-5 row component2-container'>
       <div className='col-md-7 col-sm-12 mt-5'>
-        <img src={Bird} className='w-50' alt="GIF" />
+        <img src={Bird} className='w-50 component2-bird' alt="GIF" />
       </div>
-      <div className='col-md-3 col-sm-12 mt-5 pt-5'>
+      <div className='col-md-3 col-sm-12 mt-5 pt-5 component2-text1'>
         <h5 className='text-start component2-text'>About Net Zero</h5>
         <h2 className='text-start fw-bold component2-text'>PLAY TO IMPACT IN THE REAL WORLD THROUGH GAMING</h2>
         <div className="rounded-circle arrow-container text-white mt-5">
