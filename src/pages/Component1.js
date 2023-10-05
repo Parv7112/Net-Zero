@@ -10,6 +10,7 @@ import Egg from "../assets/Egg.png";
 
 function Component1() {
   const [navbarOpen, setNavbarOpen] = useState(false); // Add state for the navbar
+
   return (
     <div className=" component1-container">
       <div className="component1-background">
@@ -27,11 +28,21 @@ function Component1() {
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto navbar-row fs-2 ml-2 fw-bold component1-navbar">
-              <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="#">Whitepaper</Nav.Link>
-              <Nav.Link href="#">NFTs</Nav.Link>
-              <Nav.Link href="#">Community</Nav.Link>
-              <Nav.Link href="#">Marketplace</Nav.Link>
+              <Nav.Link href="#" className="mx-2">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#" className="mx-4">
+                Whitepaper
+              </Nav.Link>
+              <Nav.Link href="#" className="mx-4">
+                NFTs
+              </Nav.Link>
+              <Nav.Link href="#community" className="mx-4">
+                Community
+              </Nav.Link>
+              <Nav.Link href="#" className="mx-4">
+                Marketplace
+              </Nav.Link>
             </Nav>
             <button className="component1-button text-white fw-bold fs-4">
               Play Demo

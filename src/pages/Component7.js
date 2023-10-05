@@ -10,7 +10,7 @@ import Egg from '../assets/Egg.png'
 
 function Component7() {
   return (
-    <div className="mt-5 pt-5 component7-container">
+    <div className="mt-5 pt-5 component7-container" id="community">
       <h2>The Metaverse</h2>
       <h1 className="fw-bold component6-text">PARTNERS AND ECOSYSTEM</h1>
       <div className="row component7-image1">

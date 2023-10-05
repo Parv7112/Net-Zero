@@ -23,7 +23,7 @@ html {
 }
 
 .navbar-row {
-  margin-left: 8rem;
+  margin-left: -2rem;
 }
 
 .component1-logo {
@@ -38,7 +38,7 @@ html {
   border-radius: 50rem;
   background: linear-gradient(143.15deg, #83c083 -2.31%, #6f730d 102.06%);
   box-shadow: 0px 0px 5px 2px;
-  margin-left: 9rem;
+  margin-left: 5rem;
 }
 
 .rightCloud {
@@ -375,6 +375,10 @@ html {
   }
   .component3-container {
     width: 26.5rem;
+    height: 15rem;
+  }
+  .component3-text {
+    padding-top: 2rem;
   }
   .component3-vd1 {
     margin-top: -7rem;
@@ -392,6 +396,10 @@ html {
   .component4-container {
     width: 26.5rem;
     margin-top: 50rem !important;
+    height: 20rem;
+  }
+  .component4-text {
+    padding-top: 2rem;
   }
   .component4-button {
     width: 65%;
@@ -402,7 +410,7 @@ html {
   .component5-container {
     width: 26rem;
     height: 100rem !important;
-    margin-top: 15rem !important;
+    margin-top: 10rem !important;
     padding-inline: 0rem !important;
   }
   .component5-container2 {
@@ -476,15 +484,23 @@ html {
 @media (max-width: 380px) {
   .component3-container {
     width: 23.5rem;
+    height: 18rem;
+  }
+  .component3-text {
+    padding-top: 2rem;
   }
   .component4-container {
     width: 23.5rem;
+    height: 20rem;
+  }
+  .component4-text {
+    padding-top: 2rem;
   }
   .component4-img {
     width: 80%;
   }
   .component5-container {
-    margin-top: 15rem !important;
+    margin-top: 7rem !important;
     width: 23rem;
   }
   .component5-container2 {
@@ -515,13 +531,21 @@ html {
 @media (max-width: 325px) {
   .component3-container {
     width: 20.5rem;
+    height: 16rem;
+  }
+  .component3-text {
+    padding-top: 2rem;
   }
   .component3-button {
     width: 50%;
   }
   .component4-container {
     width: 20.5rem;
+    height: 20rem;
     margin-top: 55rem !important;
+  }
+  .component4-text {
+    padding-top: 2rem;
   }
   .component4-button {
     width: 75%;
@@ -563,7 +587,7 @@ html {
     height: 80px;
   }
   .component1-navbar {
-    font-size: x-large !important;
+    font-size: medium !important;
     margin-left: -2rem;
   }
   .component1-button {
